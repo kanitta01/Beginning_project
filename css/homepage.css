@@ -1,0 +1,150 @@
+
+body{
+  font-family: Montserrat;
+  font-size: 12px;
+  color: #fff;
+  margin: 0px;
+  }
+#wrapper{
+  background-color: #1B1B2B;
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-image:url(../img/bg.png);
+  background-repeat: no-repeat;
+
+}
+.Nev{
+  width: 100%;
+  height: 46px;
+  background-color: #333;
+  position: fixed;
+  z-index: 1;
+  position: relative;
+  box-shadow: 3px 3px 19px #2c2c33;
+
+}
+#Nevleft{
+  width: 46px;
+  height: 100%;
+  background-color:rgba(235, 197, 148, 0.76)
+  background-repeat:repeat-y;
+  position: fixed;
+  transition: all 0.4s ease;
+  opacity: .75;
+  overflow: hidden;
+  z-index: 100000000000000;
+}
+#Nevleft:hover{
+  width: 200px;
+    height: 100%;
+  background-color: #2C1BFF;
+  transition: all 0.4s ease;
+  opacity: .60;
+  box-shadow: 2px 3px 15px #2C1BFF;
+}
+
+.header__moreButton{
+width: 46px;
+height: 46px;
+background-color: #333;
+background: url(../img/more-0e9e75.svg)50% 50% no-repeat;
+float: right;
+opacity: .75;
+border-left: 1px rgba(255, 255, 255, 0.2) solid;
+
+}
+.header__moreButton2{
+width: 46px;
+height: 46px;
+background-color: #333;
+background: url(../img/search.png)50% 50% no-repeat;
+float: right;
+opacity: .75;
+border-left: 1px rgba(255, 255, 255, 0.2) solid;
+
+}
+#login{
+  width: 150px;
+    height: 15px;
+    float: right;
+    color: #ffffff;
+    padding: 16px 10px;
+    border-left: 1px rgba(255, 255, 255, 0.2) solid;
+}
+.Addbutton{
+      width: 107px;
+      height: 12px;
+      background: url(../img/Addbutton.png)50% 50% no-repeat;
+      float: right;
+      padding: 18px 6px;
+      margin-right: 10px;
+  }
+  .Addbuttonplus{
+  width: 30px;
+  height: 32px;
+  background: url(../img/Addbutton1.png)50% 50% no-repeat;
+  float: right;
+  padding: 8px 0px;
+
+  }
+  .logo{
+      width: 148px;
+      height: 46px;
+      background: -webkit-linear-gradient(#006df8 , #2c1bff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient( #006df8 , #2c1bff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient( #006df8 , #2c1bff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient( #006df8 , #2c1bff); /* Standard syntax (must be last) */
+
+  }
+  .wrap_menu{
+    width: 200px;
+    height:40px;
+    transition: all 0.3s ease;
+  }
+  .wrap_menu:hover{
+    background-color: rgba(36, 20, 186, 0.4);
+    transition: all 0.3s ease;
+  }
+  .text_menu{
+    width: 152px;
+    height: 24px;
+    padding-top: 15px;
+    float: left;
+    border-bottom: 1px rgba(255, 255, 255, 0.1) solid;
+    color: rgba(255, 255, 255, 0.8);
+    transition: all 0.3s ease;
+  }
+  .text_menu:hover{
+    width: 152px;
+    height: 24px;
+    padding-top: 15px;
+    float: left;
+    border-bottom: 1px rgba(255, 255, 255, 0.1) solid;
+    color: rgba(255, 255, 255, 1);
+    transition: all 0.3s ease;
+    text-shadow: 1px 2px 6px #10396d;
+
+
+  }
+  .small_logo01 img{
+      width: 28px;
+      height: 28px;
+      margin: 10px 10px;
+      float: left;
+
+  }
+
+  .small_logo02 img{
+    width: 28px;
+height: 28px;
+margin: 5px -38px;
+float: left;
+
+  }
+  .small_logo03 img{
+    width: 28px;
+height: 28px;
+margin: 5px 10px;
+float: left
+  }
